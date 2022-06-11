@@ -30,13 +30,12 @@ main {
   margin-inline: auto;
 }
 
-
 main h1 {
   color: #001858;
   margin-bottom: 40px;
 }
 
-#btnShowPhrase {
+#btnShowQuote {
   /* width: 80%; */
   font-weight: 700;
   font-size: 18px;
@@ -51,11 +50,11 @@ main h1 {
   filter: drop-shadow(5px 5px 4px rgba(105, 105, 105, 0.4));
   transition: filter 0.2s;
 }
-#btnShowPhrase:active {
+#btnShowQuote:active {
   filter: brightness(1.2);
 }
 
-#phraseContainer {
+#quoteContainer {
   margin-top: 32px;
   background-color: #fffffe;
   padding: 24px;
@@ -65,7 +64,7 @@ main h1 {
   transition: opacity 1s;
 }
 
-#phraseContainer p {
+#quoteContainer p {
   font-family: 'Englebert', sans-serif;
   font-size: 24px;
   font-style: italic;
@@ -82,9 +81,8 @@ main h1 {
   color: hsl(228, 45%, 44%);
 }
 
-
 @media (max-width: 440px) {
-  main img{
+  main img {
     width: 100%;
   }
 }

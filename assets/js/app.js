@@ -1,29 +1,28 @@
-import { phraseArray } from './phrasesArray.js'
+import { quotesArray } from './quotesArray.js'
 
-const phrase = document.querySelector('#phraseContainer')
-const btnShowPhrase = document.querySelector('#btnShowPhrase')
+const quoteDivElement = document.querySelector('#quoteContainer')
+const btnShowQuote = document.querySelector('#btnShowQuote')
 
-btnShowPhrase.addEventListener('click', showPhrase)
+btnShowQuote.addEventListener('click', showPhrase)
 
-phrase.classList.add('display')
+quoteDivElement.classList.add('display')
 
 function showPhrase() {
+  quoteDivElement.classList.remove('display')
 
-  phrase.classList.remove('display')
+  btnShowQuote.setAttribute('disabled', true)
 
-  btnShowPhrase.setAttribute('disabled', true)
+  const totalNumberOfQuotes = quotesArray.length
 
-  const totalPhrases = phraseArray.length
+  const randomSortQuotes = Math.floor(Math.random() * totalNumberOfQuotes)
+  console.log(randomSortQuotes)
 
-  const randomSortPhrases = Math.floor(Math.random() * totalPhrases)
-  console.log(randomSortPhrases)
+  quoteDivElement.innerHTML = `<p>${quotesArray[randomSortQuotes]}</p>`
 
-  phrase.innerHTML = `<p>${phraseArray[randomSortPhrases]}</p>`
-
-  phrase.style.opacity = 1
+  quoteDivElement.style.opacity = 1
 
   setTimeout(function () {
-    phrase.style.opacity = 0
-    btnShowPhrase.removeAttribute('disabled')
+    quoteDivElement.style.opacity = 0
+    btnShowQuote.removeAttribute('disabled')
   }, 5000)
 }

@@ -1,4 +1,4 @@
-export const phraseArray = [
+export const quotesArray = [
   '“Se você quer ser bem-sucedido precisa de dedicação total, buscar seu último limite e dar o melhor de si mesmo” – Ayrton Senna',
   '“Dificuldades preparam pessoas comuns para destinos extraordinários” C.S Lewis',
   '“A vida é um constante recomeço. Não se dê por derrotado e siga adiante. As pedras que hoje atrapalham sua caminhada amanhã enfeitarão a sua estrada”  – Autor desconhecido',
