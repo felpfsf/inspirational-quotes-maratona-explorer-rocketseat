@@ -8,12 +8,16 @@
   <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Licença">License</a>
 </p>
+  
+
+<img src="https://user-images.githubusercontent.com/2619027/173205488-617df7dd-bac8-4e50-9867-ef9b5ca2c521.png" width="800px">
+
 
 <div>
-    <img src="https://img.shields.io/github/repo-size/felpfsf/reponame">
-    <img src="https://img.shields.io/github/last-commit/felpfsf/reponame">
-    <img src="https://img.shields.io/github/languages/count/felpfsf/reponame">
-    <img src="https://img.shields.io/github/languages/top/felpfsf/reponame">
+    <img src="https://img.shields.io/github/repo-size/felpfsf/inspirational-quotes-maratona-explorer-rocketseat">
+    <img src="https://img.shields.io/github/last-commit/felpfsf/inspirational-quotes-maratona-explorer-rocketseat">
+    <img src="https://img.shields.io/github/languages/count/felpfsf/inspirational-quotes-maratona-explorer-rocketseat">
+    <img src="https://img.shields.io/github/languages/top/felpfsf/inspirational-quotes-maratona-explorer-rocketseat">
 </div>
 </div>
 
@@ -37,7 +41,27 @@ This project is being developed with the follwing technologies:
 
 ## 🔖 Layout
 
-Under construction...
+### Mobile(375px)
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/2619027/173205062-55eef47b-9272-442c-89ad-f0de4c68bccb.png)
+![image](https://user-images.githubusercontent.com/2619027/173205169-9555529d-d193-4940-ab75-3d81c380014d.png)
+  
+</div>
+
+
+### Tablets(768px)
+
+<div align="center">
+  
+
+<img src="https://user-images.githubusercontent.com/2619027/173205303-60c4664d-9454-4694-915f-7ab12e1e2215.png" width="600" > 
+
+
+</div>
+
+
 
 ## 📝 License
 
